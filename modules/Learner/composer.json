@@ -1,0 +1,25 @@
+{
+    "name": "codingmatters/learner",
+    "description": "",
+    "authors": [
+        {
+            "name": "Gab Amba",
+            "email": "codingmatters.today@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Learner\\Providers\\LearnerServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Learner\\": ""
+        }
+    }
+}

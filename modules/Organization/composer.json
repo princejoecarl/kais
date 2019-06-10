@@ -1,0 +1,25 @@
+{
+    "name": "codingmatters/organization",
+    "description": "",
+    "authors": [
+        {
+            "name": "Gab Amba",
+            "email": "codingmatters.today@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Organization\\Providers\\OrganizationServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Organization\\": ""
+        }
+    }
+}

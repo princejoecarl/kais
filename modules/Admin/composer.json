@@ -1,0 +1,25 @@
+{
+    "name": "codingmatters/admin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Gab Amba",
+            "email": "codingmatters.today@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Admin\\Providers\\AdminServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Admin\\": ""
+        }
+    }
+}
